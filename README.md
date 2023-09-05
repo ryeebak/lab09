@@ -50,8 +50,11 @@ sites:
 vagrant@homestead:~/code$ exit
   
 logout
+
 4epe3@DESKTOP-OL49DUF MINGW64 ~/Homestead (main)
+
 $ vagrant halt
+
 ==> homestead: Attempting graceful shutdown of VM...
 
 
