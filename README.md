@@ -16,8 +16,11 @@ $ ssh-keygen -t rsa -C “ryeebak@gmail.com”
 ![изображение](https://github.com/ryeebak/lab09/assets/124439291/300abffb-4945-4326-96f0-9bcab34a6ea7)
 
 Далее, переместив файлы с содержимым ssh ключей в папку, путь который указан в файле Homestead.yaml, запускаю виртуальную машину с помощью команды:
+
 $ vagrant up
+
 Сразу же после успешного запуска можно проверить статус виртуальной машины командой:
+
 $ vagrant status
 
 ![image_2023-09-05_18-55-27](https://github.com/ryeebak/lab09/assets/124439291/19d3c0a6-20f2-49df-b761-2cf4f73361ca)
