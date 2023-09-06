@@ -35,10 +35,15 @@ $ vagrant ssh
 В файле Homestead.yaml в том числе указывается расположение файлов виртуальной машины:
 
 folders:
+
     - map: C:\web
+    
       to: /home/vagrant/code
+      
 sites:
+
     - map: homestead.test
+    
       to: /home/vagrant/code/public
 
 Добавим папку test с помощью интерфейса ВМ и обнаружим изменение на диске основной операционной системы по указанному пути C:\web:
