@@ -3,7 +3,7 @@
 Для развертывания виртуальной машины я буду использовать сервисы:
 1. Vagrant
 2. Laravel Homestead
-   
+
 После установки Vagrant первым делом установим Laravel Homestead с помощью команды :
 
 $ git clone https://github.com/laravel/homestead.git ~/Homestead
